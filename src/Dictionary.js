@@ -33,7 +33,7 @@ return (
       onChange= {handleKeywordChange} 
       />
   </form>
-  <Results results={results}/>
+  <Results results={results} />
 </div>
  );
 }
