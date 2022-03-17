@@ -11,10 +11,16 @@ export default function App() {
         alt="logo" />  
         </header>
         <main>
-          <Dictionary />
+          <Dictionary  defaultKeyword="sunflower" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Devanie Dawson</small>        </footer>
+          <small>Coded by Devanie Dawson & 
+            <a href="https://github.com/DDD91/dictionary-project-1" target="_blank" rel="noreferrer">
+               {""} Open-sourced
+               </a>
+              </small>  
+              
+                    </footer>
       </div>
     </div>
   );
